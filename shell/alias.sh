@@ -21,12 +21,6 @@ alias ls='ls -lhF'
 alias l='ls -la'
 alias ll='exa --long'
 
-# colors
-alias ls='ls --color=auto'
-alias diff='diff --color=auto'
-alias grep='grep --color=auto'
-alias ip='ip -color=auto'
-
 # tree
 alias t2='tree -a -L 2'
 alias t3='tree -a -L 3'

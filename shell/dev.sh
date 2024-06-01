@@ -12,7 +12,8 @@ export GITHUB_TOKEN=""
 # export JAVA_HOME=/usr/lib/jvm/$(archlinux-java get)
 
 # android
-# export ANDROID_HOME=$HOME/Android/Sdk
+export ANDROID_HOME="$XDG_DATA_HOME"/android/Sdk
+export PATH=$PATH:/opt/flutter/bin
 # export ANDROID_SDK_ROOT=$ANDROID_HOME
 # export PATH=$PATH:$ANDROID_HOME/emulator
 # export PATH=$PATH:$ANDROID_HOME/tools

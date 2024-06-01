@@ -4,6 +4,11 @@
 
 export TYPEWRITTEN_PROMPT_LAYOUT="pure_verbose"
 
+alias ls='ls --color=auto'
+alias diff='diff --color=auto'
+alias grep='grep --color=auto'
+alias ip='ip -color=auto'
+
 export FZF_DEFAULT_OPTS=" \
   --color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
   --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
@@ -15,7 +20,6 @@ export BEMENU_OPTS="\
   --list 10\
   --width-factor 0.2\
   --fixed-height 35\
-  --binding vim\
   --border 1\
   --border-radius 10\
   --fn 'JetBrainsMono Nerd Font 12'
